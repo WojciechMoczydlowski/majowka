@@ -31,7 +31,6 @@ function App() {
     <>
       <Root>
         <Wrapper>
-          <Title>Wygrać z czasem</Title>
           <Introduction />
           <Documents>
             {documentsState.map(
@@ -64,7 +63,7 @@ const Root = styled.div`
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  padding-bottom: 150px;
+  padding: 50px 0;
 
   background: url(${mainBackground});
   background-size: auto;
@@ -78,6 +77,7 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.h1`
+  font-family: Caveat;
   margin: 0;
   padding: 50px 0;
 `;

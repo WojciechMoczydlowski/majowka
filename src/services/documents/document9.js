@@ -12,7 +12,7 @@ Wpisz numer telefonu do agencji. Format “xx xxx-xx-xx”
     href: "https://www.youtube.com/watch?v=6_7uJBaA0UQ",
     label: "Link do filmu",
   },
-  label: "numer telefonu do agencji",
+  label: "numer telefonu",
   answer: "22 847-35-35",
 };
 

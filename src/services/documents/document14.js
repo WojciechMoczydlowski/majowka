@@ -15,6 +15,7 @@ Ale bachor nie ustępuje! Ciągle mówi “Rozwiąż moją zagadkę! Ale rozwią
 Nosz co za dzieciak! Nie da Wam spokoju i nie ma opcji, żeby ustąpił. Zgadzacie się na zagadkę, w nadziei, że po zabawie odda słuchawkę swojemu tacie.`,
   mystery: `Daniel wziął wczoraj udział w maratonie w Warszawie z jedną z niewinnych osób. Maciek był rolnikiem, zanim przeniósł się do miasta. Jerzy jest geniuszem komputerowym i w przyszłym tygodniu ma złożyć laptopa dla Bartka. Zabójcy kilka dni temu amputowano nogę. Bartek poznał Jacka pół roku temu. Jacek nie pojawia się publicznie od morderstwa. Daniel dużo pił. Zabójca jest bratem Jacka, z którym dorastał w Szczecinie. Kto zabił?/Kto zginął?
 Kto zabił kogo: *wpisz dwa imiona oddzielone spacją w mianowniku*`,
+  label: "Dwa imiona oddzielone spacją w mianowniku",
   answer: "jerzy maciek",
 };
 

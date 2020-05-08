@@ -7,9 +7,11 @@ Po chwili wsunął rękę do kieszeni i podał wam lekko zgniecioną kartkę.
  - Nawet mam tutaj coś, co prawdopodobnie należało do niego.
 `,
   mystery: `Otrzymujecie kartkę, na której widnieje zaszyfrowana wiadomość:
-"bachor"  
+
+"Lbgnak Opłlenkpwd, Edmpiygtrczng Ydolbukig Ipnag"
+
 Musicie ją odszyfrować używając szyfru gaderypoluki`,
-  answer: "bachor",
+  answer: "ubangi południowe, demokratyczna republika konga",
 };
 
 export default document;

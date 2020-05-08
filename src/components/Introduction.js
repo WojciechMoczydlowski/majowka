@@ -38,7 +38,7 @@ const Content = styled.div`
 
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 50px;
 
   white-space: pre-wrap;
 `;
@@ -52,9 +52,14 @@ const TopSide = styled.div`
 const MiddleSide = styled.div``;
 
 const Title = styled.h2`
+  font-family: Caveat;
   margin: 0;
+  font-size: 42px;
 `;
-const Date = styled.div``;
+const Date = styled.div`
+  font-family: Caveat;
+  font-size: 28px;
+`;
 const Description = styled.p``;
 
 export default Introduction;

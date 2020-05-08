@@ -15,7 +15,7 @@ Mężczyzna omija Was, wyjmuje klucze z kieszeni i otwiera kapliczkę. Jak gdyby
 Po chwili domyślacie się, że mężczyzna jest księdzem, bądź kościelnym odpowiedzialnym za to miejsce. Ponownie nawiązujecie rozmowę, w trakcie której dowiadujecie się, że to proboszcz! Bingo! Kto zna lepiej swój teren i jego sekrety, jeśli nie lokalny proboszcz!`,
   mystery:
     "Dodatkowo, okazuje się, że ma u dominikanów siostrzeńca! I to nawet na Służewie. Jest nim “najświeższy” wyświęcony. Wiedząc, kto nim jest, zdobędziecie jego zaufanie.",
-  label: "Jak nazywa się siostrzeniec proboszcza: ",
+  label: "Imię i nazwisko siostrzeńca proboszcza:",
   answer: "dominik zarychta",
 };
 

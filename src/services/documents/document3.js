@@ -12,6 +12,7 @@ Wpisz kolejno rozwiązania zagadka3A oraz zagadka3B: XXXXXX ( gdzie X to cyfra)`
     label: `Link do zagadek`,
   },
   answer: "042185",
+  label: "Rozwiązanie zagadek",
 };
 
 export default document;

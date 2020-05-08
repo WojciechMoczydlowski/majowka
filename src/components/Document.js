@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import { css } from "styled-components";
 import background from "../assets/images/documentBackground.jpg";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
@@ -45,6 +46,7 @@ function Document({
         <BottomSide>
           {answer && (
             <Answer
+              fullWidth
               placeholder="Podaj odpowiedź"
               label={label}
               value={inputValue}
@@ -80,7 +82,7 @@ const Content = styled.div`
 
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 50px;
 
   white-space: pre-wrap;
 `;
@@ -101,20 +103,27 @@ const BottomSide = styled.div`
 
 const Title = styled.h2`
   margin: 0;
+  font-family: Caveat;
+  font-size: 42px;
 `;
-const Date = styled.div``;
+const Date = styled.div`
+  font-family: Caveat;
+  font-size: 28px;
+`;
 const Description = styled.p``;
 const Mystery = styled.p``;
 const Answer = styled(TextField)`
   margin-right: 16px;
+  max-width: 40%;
 `;
 
 const NextButton = styled(Button)`
-  font-family: "Caveat" !important;
+  font-family: Roboto;
 `;
 
 const A = styled.a`
   display: block;
   margin-bottom: 24px;
 `;
+
 export default Document;

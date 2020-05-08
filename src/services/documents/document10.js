@@ -7,7 +7,7 @@ Dzwonicie do Agencji Ochrony w nadziei,że  pomogą Wam rozwiązać zagadkę taj
   mystery: `Zaskakująco, na liście figurowały bardzo urokliwe miejsca - takie, do których chętnie zabralibyście kogoś ważnego dla Was, takie, nad którymi można się zachwycić... 
 Odczytajcie z listy miejsc to, z największą liczbą wizyt (które wywołało najwięcej zachwytu) i tam się udajcie.
 `,
-  label: "Najczęściej odwiedzane miejsce: ",
+  label: "Nazwa miejsca",
   answer: "kapliczka św. rocha",
 };
 

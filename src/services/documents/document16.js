@@ -14,6 +14,11 @@ Dodatkowo w podpisach widzicie, że pocztówka przedstawia obraz Józefa M.
   mystery: "Napiszcie nazwę miasta, którego rynek przedstawia obraz.",
   label: "Nazwa miasta",
   answer: "kraków",
+  link: {
+    href:
+      "https://drive.google.com/drive/folders/1dgXJDVCqcxC-9wvXO-X7vJ5gvvirEpEQ?usp=sharing",
+    label: "Obraz z pocztówki",
+  },
 };
 
 export default document;

@@ -12,7 +12,8 @@ Szczególnym wspomnieniem tkwiącym w waszej pamięci był plakat Jarmarku. Trak
       "https://drive.google.com/drive/folders/1M7LuwAc32N0t6Rj3ueBm20B5Sr_1ib3n?usp=sharing",
     label: "Link do zdjęcia",
   },
-  answer: "192716002015123",
+  answer: "192716002015123100",
+  label: "Ciąg cyfr",
 };
 
 export default document;
