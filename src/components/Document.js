@@ -65,9 +65,6 @@ function Document({
 }
 
 const Root = styled.div`
-  position: relative;
-  top: ${(p) => (p.isDown ? "100px" : 0)};
-
   margin-bottom: 50px;
 
   background-image: url(${background});

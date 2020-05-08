@@ -8,7 +8,7 @@ Dzwonicie do Agencji Ochrony w nadziei,że  pomogą Wam rozwiązać zagadkę taj
 Odczytajcie z listy miejsc to, z największą liczbą wizyt (które wywołało najwięcej zachwytu) i tam się udajcie.
 `,
   label: "Najczęściej odwiedzane miejsce: ",
-  answer: "kapliczka św. Rocha",
+  answer: "kapliczka św. rocha",
 };
 
 export default document;

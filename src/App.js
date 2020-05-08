@@ -11,8 +11,8 @@ function App() {
   const [documentsState, setDocumentsState] = useState(() =>
     documents.map((item, index) => ({
       ...item,
-      isVisible: true,
-      // isVisible: index === 0 ? true : false,
+      // isVisible: true,
+      isVisible: index === 0 ? true : false,
       isLastDocument: index === documents.length - 1,
     }))
   );
@@ -37,20 +37,19 @@ function App() {
             {documentsState.map(
               (item, index) =>
                 item.isVisible && (
-                  <DocumentWrapper key={index}>
-                    <Document
-                      link={item.link}
-                      index={index}
-                      title={item.title}
-                      date={item.date}
-                      description={item.description}
-                      mystery={item.mystery}
-                      answer={item.answer}
-                      isLastDocument={item.isLastDocument}
-                      unlockNextDocument={unlockNextDocument}
-                      label={item.label}
-                    />
-                  </DocumentWrapper>
+                  <Document
+                    key={index}
+                    link={item.link}
+                    index={index}
+                    title={item.title}
+                    date={item.date}
+                    description={item.description}
+                    mystery={item.mystery}
+                    answer={item.answer}
+                    isLastDocument={item.isLastDocument}
+                    unlockNextDocument={unlockNextDocument}
+                    label={item.label}
+                  />
                 )
             )}
           </Documents>
@@ -68,8 +67,8 @@ const Root = styled.div`
   padding-bottom: 150px;
 
   background: url(${mainBackground});
-  background-size: contain;
-  background-repeat: repeat;
+  background-size: auto;
+  background-repeat: repeat-y;
 `;
 
 const Wrapper = styled.div`
@@ -78,17 +77,13 @@ const Wrapper = styled.div`
   margin-right: auto;
 `;
 
-const DocumentWrapper = styled.div`
-  width: 450px;
-`;
 const Title = styled.h1`
   margin: 0;
   padding: 50px 0;
 `;
 const Documents = styled.div`
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
 `;
 
 export default App;

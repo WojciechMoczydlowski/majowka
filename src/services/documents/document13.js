@@ -1,11 +1,15 @@
 const document = {
-  title: "document 13",
-  date: "2 maja 7:15",
-  description: `Następnego dnia wczesny rankiem. Przełożeni klasztoru organizują Wam samolot. 
-Szybko pakujecie kilka najpotrzebniejszych rzeczy w plecak i udajecie się pod Otwock, gdzie znajduje się pas startowy dla samolotów ultralekkich ULM. Jest to jedyne miejsce, w którym istnieje szansa na wystartowanie bez wzbudzania podejrzeń. 
-Kto by pomyślał, że dominikanie zdolni są do organizacji takich zleceń? Obawiacie się kontroli granicznych i blokad lotów, ale widocznie dominikańskie możliwości jeszcze niejednokrotnie was zaskoczą...
-
-W trakcie lotu czytacie instrukcje bezpieczeństwa, które dostaliście w klasztorze i “rozmówki” francuskie, do porozumienia z tubylcami.`,
+  title: "Kartka",
+  date: "2 maja 7:30",
+  description: `Dobrze Wam się rozmawia z proboszczem, ale pamiętacie, że nie macie czasu na przyjemności. Ksiądz wie, że na pewno jesteście od dominikanów ze Służewa - udało wam się wzbudzić jego zaufanie, dlatego odważyliście się powiedzieć mu, że jesteście tu w związku ze śledztwem…. Zaintrygowany, zaczyna dopytywać o kolejne szczegóły. Mówicie, że szukacie mężczyzny, ale nic więcej. 
+- Tak… - proboszcz powoli kiwa głową - kojarzę tego mężczyznę. Faktycznie często tu bywał, widziałem go nawet kilka dni temu. 
+Po chwili wsunął rękę do kieszeni i podał wam lekko zgniecioną kartkę.
+ - Nawet mam tutaj coś, co prawdopodobnie należało do niego.
+`,
+  mystery: `Otrzymujecie kartkę, na której widnieje zaszyfrowana wiadomość:
+"bachor"  
+Musicie ją odszyfrować używając szyfru gaderypoluki`,
+  answer: "bachor",
 };
 
 export default document;

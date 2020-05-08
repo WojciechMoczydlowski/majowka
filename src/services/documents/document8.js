@@ -6,7 +6,7 @@ Ludzie… dużo ludzi! Kiedy przy klasztorze jest najwięcej ludzi i największe
 
 Szczególnym wspomnieniem tkwiącym w waszej pamięci był plakat Jarmarku. Traktujecie to jako nietypową intuicję i w nim szukacie klucza do otwarcia kolejnej wskazówki.
 `,
-  myster: `Odczytajcie wszystkie cyfry ukryte na plakacie (w domyślnym kierunku czytania)`,
+  mystery: `Odczytajcie wszystkie cyfry ukryte na plakacie (w domyślnym kierunku czytania)`,
   link: {
     href:
       "https://drive.google.com/drive/folders/1M7LuwAc32N0t6Rj3ueBm20B5Sr_1ib3n?usp=sharing",

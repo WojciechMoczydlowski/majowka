@@ -1,11 +1,19 @@
 const document = {
-  title: "document 6",
-  date: "2 maja 7:15",
-  description: `Następnego dnia wczesny rankiem. Przełożeni klasztoru organizują Wam samolot. 
-Szybko pakujecie kilka najpotrzebniejszych rzeczy w plecak i udajecie się pod Otwock, gdzie znajduje się pas startowy dla samolotów ultralekkich ULM. Jest to jedyne miejsce, w którym istnieje szansa na wystartowanie bez wzbudzania podejrzeń. 
-Kto by pomyślał, że dominikanie zdolni są do organizacji takich zleceń? Obawiacie się kontroli granicznych i blokad lotów, ale widocznie dominikańskie możliwości jeszcze niejednokrotnie was zaskoczą...
+  title: "Pocztówka",
+  date: "3 maja 9:15",
+  description: `Dostajecie zdjęcie pocztówki z obu stron. Na przodzie pocztówki nadrukowany jest obraz przedstawiający rynek jakiegoś miasta. Styl architektoniczny sugeruje, że jest to najprawdopodobniej gdzieś w Europie. Niestety jakość zdjęcia pozostawia wiele do życzenia i nie wszystko da się dobrze odczytać.
 
-W trakcie lotu czytacie instrukcje bezpieczeństwa, które dostaliście w klasztorze i “rozmówki” francuskie, do porozumienia z tubylcami.`,
+Pocztówka jest od córki, co sugeruje napis: “Kochany tatusiu!” na początku wiadomości. Imię i nazwisko adresata zgadza się z tym, które otrzymaliście od firmy ochroniarskiej. Dalsza treść pocztówki wygląda mniej więcej tak:
+“Tęsknie za Tobą bardzo mocno. Mam nadzieję, że Ty też. 
+Wysyłam Ci pocztówkę z obrazem, żebyś mógł poczuć się jakbyś patrzył przez okno z naszego salonu. Szkoda, że przez to wszystko, z restauracji na dole już nie słychać grania fortepianu :( 
+Czekam kiedy do mnie przyjedziesz, bo bez Ciebie to czuję się jeszcze bardziej chora.
+-Twoja Zosia”
+
+Dodatkowo w podpisach widzicie, że pocztówka przedstawia obraz Józefa M.
+`,
+  mystery: "Napiszcie nazwę miasta, którego rynek przedstawia obraz.",
+  label: "Nazwa miasta",
+  answer: "kraków",
 };
 
 export default document;
