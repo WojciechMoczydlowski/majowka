@@ -1,6 +1,6 @@
 const document = {
   title: "Wywiad środowiskowy",
-  date: "2 maja 7:00",
+  date: "2 maja 10:36",
   description: `Dotarliście pod kapliczkę, ale tam nikogo nie ma. Żadnej żywej duszy. Wokół tylko las i świergot ptaków. Zaglądacie do środka. Niczego podejrzanego tam nie ma. Boże obrazki, jakieś zwiędłe kwiaty, nic specjalnego. Nagle słyszycie kroki! Kto to idzie? I dlaczego niesie kwiaty?
 
 Trzeba Wam zachować spokój. Postanawiacie zaryzykować i zagadać.

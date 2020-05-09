@@ -4,7 +4,7 @@ export const introductionDescription = `Rok 2020. Jak wszem i wobec wiadomo, na 
 
 Podczas nagrań kolejnego odcinka “Dawno temu w klasztorze”, ojciec Łukasz Woś wraz z ojcem Dariuszem Kantypowiczem - jak to zwykle między nimi bywa - rozmawiali o bieżących wydarzeniach klasztornych. Zwykle dotyczyły codziennych spraw, jednak informacja, którą tym razem usłyszał ojciec Woś, była mrożąca krew w żyłach.
 - Ale jak to? I nikt o tym jeszcze nie wie?
-- Nie. Nawet przeor, chociaż wypadałoby go w to wtajemniczyć.
+- Praktycznie nie. Jedynie przeor i dwóch innych ojców.
 - Poczekaj, poczekaj. Jeśli to się rozniesie, zamkną cały nasz klasztor, a wszystkie msze zostaną odwołane. Co możemy zrobić, żeby to rozwiązać?
 - Wiesz, jest jedna opcja... musimy złożyć zamówienie. TO zamówienie.
 - W takiej sytuacji, chyba nie mamy innego wyjścia.

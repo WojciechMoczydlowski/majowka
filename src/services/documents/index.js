@@ -14,7 +14,10 @@ import document13 from "./document13";
 import document14 from "./document14";
 import document15 from "./document15";
 import document16 from "./document16";
+import document17 from "./document17";
 import end from "./end";
+import alternativeEnd from "./alternativeEnd";
+import summary from "./summary";
 
 const documents = [
   document1,
@@ -33,7 +36,10 @@ const documents = [
   document14,
   document15,
   document16,
+  document17,
   end,
+  summary,
+  alternativeEnd,
 ];
 
 export default documents;

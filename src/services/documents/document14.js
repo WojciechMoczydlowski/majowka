@@ -6,10 +6,10 @@ Natychmiast odszukujecie w spisie kontaktów numer do tłumacza z baru.
 
 Dzwonicie. Nie odbiera.
 Dzwonicie drugi raz. Nie odbiera.
-Dzwonicie trzeci raz. Ktoś odebrał. W końcu! ale to nie jest głos mężczyzny... a wy znów nic nie rozumiecie. Próbujecie po angielsku. Nic. Kto to jest? Czy dobrze wpisaliście numer?
+Dzwonicie trzeci raz. Ktoś odebrał. W końcu! ale to nie jest głos mężczyzny.Kto to jest? Czy dobrze wpisaliście numer?
 
-Może to szaleństwo, ale włączacie tryb wideorozmowy. Zaskoczenie! To dziecko! Chłopiec wyglądający na jakieś 8 lat. Wygląda na syna właściciela baru.
-Przedstawiacie się, mówicie, że to Wy wczoraj byliście w barze i że chcecie rozmawiać z jego tatą.
+Może to szaleństwo, ale włączacie tryb wideorozmowy. Zaskoczenie! To dziecko! Chłopiec wyglądający na jakieś 8 lat.
+Przedstawiacie się, mówicie, że to Wy wczoraj byliście w barze i że chcecie rozmawiać z właścicielem.
 
 Ale bachor nie ustępuje! Ciągle mówi “Rozwiąż moją zagadkę! Ale rozwiąż moją zagadkę! ZAGADKAAAAAAA!” 
 Nosz co za dzieciak! Nie da Wam spokoju i nie ma opcji, żeby ustąpił. Zgadzacie się na zagadkę, w nadziei, że po zabawie odda słuchawkę swojemu tacie.`,

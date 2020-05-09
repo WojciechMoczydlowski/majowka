@@ -8,8 +8,6 @@ Pocztówka jest od córki, co sugeruje napis: “Kochany tatusiu!” na początk
 Wysyłam Ci pocztówkę z obrazem, żebyś mógł poczuć się jakbyś patrzył przez okno z naszego salonu. Szkoda, że przez to wszystko, z restauracji na dole już nie słychać grania fortepianu :( 
 Czekam kiedy do mnie przyjedziesz, bo bez Ciebie to czuję się jeszcze bardziej chora.
 -Twoja Zosia”
-
-Dodatkowo w podpisach widzicie, że pocztówka przedstawia obraz Józefa M.
 `,
   mystery: "Napiszcie nazwę miasta, którego rynek przedstawia obraz.",
   label: "Nazwa miasta",
