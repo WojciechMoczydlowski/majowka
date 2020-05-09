@@ -7,30 +7,46 @@ import Introduction from "./components/Introduction";
 import mainBackground from "./assets/images/mainBackground.jpg";
 import GlobalStyle from "./styles/global";
 import produce from "immer";
+import Button from "@material-ui/core/Button";
 function App() {
-  const [documentsState, setDocumentsState] = useState(() =>
-    documents.map((item, index) => ({
+  const [documentsState, setDocumentsState] = useState(() => {
+    const currentDocument = localStorage.getItem("state")
+      ? +localStorage.getItem("state")
+      : 0;
+    return documents.map((item, index) => ({
       ...item,
       // isVisible: true,
-      isVisible: index === 0 ? true : false,
+      isVisible: index <= currentDocument ? true : false,
       isLastDocument: index === documents.length - 1,
-    }))
-  );
+    }));
+  });
 
   const unlockNextDocument = (index) => {
     if (index >= documentsState.length - 1) {
       return;
     }
+    localStorage.setItem("state", String(index + 1));
     const newDocuments = produce(documentsState, (draft) => {
       draft[index + 1].isVisible = true;
     });
     setDocumentsState(newDocuments);
   };
 
+  const resetGame = () => {
+    localStorage.removeItem("state");
+    const clearDocuments = documentsState.map((item, index) => ({
+      ...item,
+      isVisible: index === 0 ? true : false,
+    }));
+
+    setDocumentsState(clearDocuments);
+  };
+
   return (
     <>
       <Root>
         <Wrapper>
+          <PlayAgain onClick={() => resetGame()}>Zagraj ponownie</PlayAgain>
           <Introduction />
           <Documents>
             {documentsState.map(
@@ -75,15 +91,13 @@ const Wrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
 `;
-
-const Title = styled.h1`
-  font-family: Caveat;
-  margin: 0;
-  padding: 50px 0;
-`;
 const Documents = styled.div`
   display: flex;
   flex-direction: column;
+`;
+
+const PlayAgain = styled(Button)`
+  margin-bottom: 50px;
 `;
 
 export default App;
